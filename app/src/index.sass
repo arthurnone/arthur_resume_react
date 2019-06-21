@@ -1,0 +1,96 @@
+$bg-dark: #292727
+$font-white: white
+$base-font: 'Roboto Condensed', serif
+
+html, body
+  margin: 0
+  padding: 0
+  background-color: $bg-dark
+  color: $font-white
+  font-family: $base-font
+
+.main
+  position: relative
+  max-width: 1080px
+  margin: 30px auto
+
+.content
+  position: relative
+  margin: 0 10px
+
+.center
+  display: block
+  margin: 0 auto
+  text-align: center
+
+.margin
+  margin-bottom: 5px
+  margin-top: 5px
+
+.margin-max
+  margin-top: 10px
+  margin-bottom: 15px
+
+.title
+  font-family: 'Anton', serif
+
+.date
+  font-family: 'Rubik', serif
+
+a
+  color: white
+  outline: none
+  text-underline: none
+  text-decoration: none
+
+.font-max
+  font-size: 36px
+
+.font-t1
+  font-size: 32px
+
+.font-t2
+  font-size: 28px
+
+.font-t3
+  font-size: 24px
+
+.font-t4
+  font-size: 20px
+
+.font-normal
+  font-size: 16px
+
+.font-min
+  font-size: 12px
+
+.mobile-hidden
+  background-color: #292727
+  margin-bottom: -10px
+
+.pc-hidden
+  background-color: #292727
+  margin-bottom: -10px
+  display: none
+
+@media (max-width: 1080px)
+  .mobile-hidden
+    display: none
+  .pc-hidden
+    display: block
+  .main
+    width: 100%
+  .font-max
+    font-size: 1.4em
+  .font-t1
+    font-size: 1.2em
+  .font-t2
+    font-size: 1em
+  .font-t3
+    font-size: 1em
+  .font-t4
+    font-size: 1em
+  .font-normal
+    font-size: 1em
+  .font-min
+    font-size: 0.8em
